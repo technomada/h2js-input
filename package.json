@@ -1,6 +1,6 @@
 {
   "name": "h2js-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -8,8 +8,10 @@
   },
   "author": "Adam",
   "license": "MIT",
+  "repository": {
    "type": "git",
-   "url": "https://github.com/technomada/h2js-nice4html",
+   "url": "https://github.com/technomada/h2js-nice4html"
+  },
   "dependencies": {
     "h2js-element": "^1.0.2"
   }
