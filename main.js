@@ -15,8 +15,9 @@ class Element extends ShellElement {
 					grid-template-rows: auto 1fr auto;
 					height: 100%;
 					}
-				.${name} textarea {width: 100%; outline: none; border: none; resize:none; background: none; xborder-top: solid 1px #333; color: #eee; font: normal 16px arial; margin-top 3px; padding-top: 3px;
-			color: #777;}
+				.${name} textarea {width: 100%; outline: none; border: none; resize:none; background: none; xborder-top: solid 1px #333; color: #eee; font: normal 16px arial; xmargin-top 3px; xpadding-top: 3px;
+			color: #777;
+			box-sizing: border-box;}
 
 			</style>
 			<div class='${name}'>
