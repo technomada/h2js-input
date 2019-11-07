@@ -12,12 +12,66 @@ class Element extends ShellElement {
 			<style>
 				.${name} {
 					display: grid;
-					grid-template-rows: auto 1fr auto;
 					height: 100%;
+					place-items: stretch;
 					}
-				.${name} textarea {width: 100%; outline: none; border: none; resize:none; background: none; xborder-top: solid 1px #333; color: #eee; font: normal 16px arial; xmargin-top 3px; xpadding-top: 3px;
+				.${name} textarea {outline: none; border: none; resize:none; background: none; xborder-top: solid 1px #333; color: #eee; font: normal 16px arial; xmargin-top 3px; xpadding-top: 3px;
 			color: #777;
-			box-sizing: border-box;}
+			box-sizing: border-box;
+			}
+
+				::-xwebkit-input-placeholder {
+						text-align: center;
+						vertical-align: middle;
+
+						height: 100%;
+						box-sizing: border-box;
+						border: solid 1px red;
+						display: table-cell;
+						line-height: 100%;
+						}
+				::-xwebkit-input-placeholder {
+						box-sizing: border-box;
+						display: grid;
+						place-items: center;
+						xheight: 100%;
+						line-height: 100%;
+						text-align: center;
+						position: relative;
+						top: calc(50% - 0.55em);
+					}
+
+				::-xwebkit-input-placeholder {
+						height: 100%;
+						text-align: center;
+						position: relative;
+						top: calc(50% - 0.55em);
+					}
+
+				::-webkit-input-placeholder {
+					text-align: center;
+					top: calc(50% - 0.70em);
+					position: relative;
+					}
+
+					:-moz-placeholder { /* Firefox 18- */
+					text-align: center;
+					top: calc(50% - 0.70em);
+					position: relative; 
+					}
+
+					::-moz-placeholder {  /* Firefox 19+ */
+					text-align: center;
+					top: calc(50% - 0.70em);
+					position: relative;
+					}
+
+					:-ms-input-placeholder {  
+					text-align: center;
+					top: calc(50% - 0.70em);
+					position: relative;
+					}
+				}
 
 			</style>
 			<div class='${name}'>

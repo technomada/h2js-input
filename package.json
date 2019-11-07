@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
    "type": "git",
-   "url": "https://github.com/technomada/h2js-nice4html"
+   "url": "https://github.com/technomada/h2js-input"
   },
   "dependencies": {
     "h2js-element": "^1.0.2"
